@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="EnceiptadoNet.exe" version="1.0.0.2" publicKeyToken="5b048663c1cf63e2" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="crypt.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="EnceiptadoNet" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="EnceiptadoNet.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EnceiptadoNet.exe" size="322976">
+      <assemblyIdentity name="EnceiptadoNet" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wF95ptbQWrJ62UnaGquH/JfTGWGZbcDMknMT+Tv8CoM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="cript.ico" size="235550">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jlQXaUZqnGzV2uRucDSsCHgv9eNO6WrBVzjnTYS++GQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="crypt.ico" size="235550">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kBfCkO8OGSTuxhFjDw2S5WlpiPB/POZhi+RK50RjVSw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="EnceiptadoNet.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\btnclose.png" size="5520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LR6gaiFrIDq4eqgKX0Wk25YPsF0pqS71bj8nNcx3oPg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\conf_button.png" size="29715">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kR4M8KNZWL2Bjzsts2ZDP8IbYR6yo6A1c9mzLUUwOYo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="resources\encriptacion.png" size="39949">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kcPIqBWE+uqaoiStvf2WVSfN7wwUjbpAR+PJgYp/lTw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=CB\MI05332" issuerKeyHash="4bb268761d9477dd76287d742941f4684627ec2a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>C6W4z+xgVPrt4U1nRRbbp3vn9UQiF09lbjdEFWPTItA=</DigestValue></Reference></SignedInfo><SignatureValue>E/2oELm1OuCroW+k55Tl9rU6fHxhY7krltpOyLERxs6BkBMBGScaSytR/yhGlytpIiEkMQ7vH+1xukMFYrAG51Vw+vZtErKetX3Y0ULEuC+a0H8cWeViqxIh9gmDvUUq6suDFZZToZZr0+ULT882VD8Ddy2w7ta2BUjrap6ZO2s=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1VcEvyAeexsFNy849ibP4n09XiPHwfPJShRGXjaxBIlWkCGB8SJMI2mMdd2kI7YXgNn7D+JsUdiO9yNbMmF5JmlkOnyXaZfBvJiLMMf1q4dqTXcg4zI3r912eI1WrPQINZsnr3LKWazP5lKQnFJoGaCvM6hCTsfVo9Y1Vlp0n5k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d022d3631544376e654f172244f5e77ba7db1645674de1edfa5460eccfb8a50b" Description="" Url=""><as:assemblyIdentity name="EnceiptadoNet.exe" version="1.0.0.2" publicKeyToken="5b048663c1cf63e2" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CB\MI05332</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NHPUacjjyhSuF0ZM4nJi0KOYHTe0K166zcWj4T0j6lY=</DigestValue></Reference></SignedInfo><SignatureValue>Db2yfYPjbosn/roLMXL4TYDfQ6BLPFNaHOTf/+p/K7h5AZ/MN/FoiGvGRjmXAuHcffZPz/kWOguophTX0cd6SEapOPZltMSrzOURKcXY4bpxqsi4sKl8tQy/8yHyF+4yy0gVNYL5GvKUeL9Xm/v+KogayfAeIokfkubdJyQ1360=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1VcEvyAeexsFNy849ibP4n09XiPHwfPJShRGXjaxBIlWkCGB8SJMI2mMdd2kI7YXgNn7D+JsUdiO9yNbMmF5JmlkOnyXaZfBvJiLMMf1q4dqTXcg4zI3r912eI1WrPQINZsnr3LKWazP5lKQnFJoGaCvM6hCTsfVo9Y1Vlp0n5k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQQmPh7e+4AbZBHLlOPsQ1QzANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAQwBCAFwATQBJADAANQAzADMAMjAeFw0yMzExMTUxOTUwMzJaFw0yNDExMTUwMTUwMzJaMB8xHTAbBgNVBAMeFABDAEIAXABNAEkAMAA1ADMAMwAyMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVVwS/IB57GwU3Lzj2Js/ifT1eI8fB88lKFEZeNrEEiVaQIYHxIkwjaYx13aQjtheA2fsP4mxR2I73I1syYXkmaWQ6fJdpl8G8mIswx/Wrh2pNdyDjMjev3XZ4jVas9Ag1myevcspZrM/mUpCcUmgZoK8zqEJOx9Wj1jVWWnSfmQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACI0dBqGfY7Pz9XW+0HtYkwmPSIIUN+LrcEBnkQquC8IsXn9DEyepAbxbqCq14KZeTR7WWma/AUdY5bZHJtU0K3WDvRT+7BFosurdCRhrGPDqSeFIS61vQQ9VfR8tDOAdjG8nxuujk1sxZMAOmUV0ScxlFBUOWzuwEY/A/+JKTou</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
